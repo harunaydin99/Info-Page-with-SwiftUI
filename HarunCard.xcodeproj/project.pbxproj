@@ -13,6 +13,12 @@
 		2E94B4BA26A569980035D439 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E94B4B926A569980035D439 /* Preview Assets.xcassets */; };
 		2E94B4C526A569980035D439 /* HarunCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E94B4C426A569980035D439 /* HarunCardTests.swift */; };
 		2E94B4D026A569980035D439 /* HarunCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E94B4CF26A569980035D439 /* HarunCardUITests.swift */; };
+		2E94B4DF26A586690035D439 /* Yomogi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E94B4DE26A586690035D439 /* Yomogi-Regular.ttf */; };
+		2E94B4E026A586690035D439 /* Yomogi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E94B4DE26A586690035D439 /* Yomogi-Regular.ttf */; };
+		2E94B4E126A586690035D439 /* Yomogi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E94B4DE26A586690035D439 /* Yomogi-Regular.ttf */; };
+		2E94B4E326A594450035D439 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E94B4E226A594450035D439 /* InfoView.swift */; };
+		2E94B4E426A594450035D439 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E94B4E226A594450035D439 /* InfoView.swift */; };
+		2E94B4E526A594450035D439 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E94B4E226A594450035D439 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,8 @@
 		2E94B4CB26A569980035D439 /* HarunCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarunCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E94B4CF26A569980035D439 /* HarunCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarunCardUITests.swift; sourceTree = "<group>"; };
 		2E94B4D126A569980035D439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E94B4DE26A586690035D439 /* Yomogi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yomogi-Regular.ttf"; sourceTree = "<group>"; };
+		2E94B4E226A594450035D439 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +103,10 @@
 		2E94B4B126A569960035D439 /* HarunCard */ = {
 			isa = PBXGroup;
 			children = (
+				2E94B4DD26A5864A0035D439 /* fonts */,
 				2E94B4B226A569960035D439 /* HarunCardApp.swift */,
 				2E94B4B426A569960035D439 /* ContentView.swift */,
+				2E94B4E226A594450035D439 /* InfoView.swift */,
 				2E94B4B626A569980035D439 /* Assets.xcassets */,
 				2E94B4BB26A569980035D439 /* Info.plist */,
 				2E94B4B826A569980035D439 /* Preview Content */,
@@ -128,6 +138,14 @@
 				2E94B4D126A569980035D439 /* Info.plist */,
 			);
 			path = HarunCardUITests;
+			sourceTree = "<group>";
+		};
+		2E94B4DD26A5864A0035D439 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2E94B4DE26A586690035D439 /* Yomogi-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E94B4BA26A569980035D439 /* Preview Assets.xcassets in Resources */,
+				2E94B4DF26A586690035D439 /* Yomogi-Regular.ttf in Resources */,
 				2E94B4B726A569980035D439 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E94B4E026A586690035D439 /* Yomogi-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E94B4E126A586690035D439 /* Yomogi-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E94B4B526A569960035D439 /* ContentView.swift in Sources */,
+				2E94B4E326A594450035D439 /* InfoView.swift in Sources */,
 				2E94B4B326A569960035D439 /* HarunCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E94B4E426A594450035D439 /* InfoView.swift in Sources */,
 				2E94B4C526A569980035D439 /* HarunCardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E94B4E526A594450035D439 /* InfoView.swift in Sources */,
 				2E94B4D026A569980035D439 /* HarunCardUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
